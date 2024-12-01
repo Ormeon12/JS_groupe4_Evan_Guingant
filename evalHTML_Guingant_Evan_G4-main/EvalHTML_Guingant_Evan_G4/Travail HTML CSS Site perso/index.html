@@ -1,0 +1,189 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Karmine vidéo</title>
+    
+</head>
+
+<body>
+    
+    <!-- Ici je définis la class header avec les propriétées dans le css-->
+
+    <header class="header">
+
+        <!-- J'ajoute un logo avec un lien -->
+
+        <a class="logo" href="index.html"><img src="imageetvideos/Karmine_Corp_logo.svg.png"
+                alt="Logo de la Karmine Corp"></a>
+
+        <!-- Ici je mets en place ma barre de nav avec des balises ul et li et des propriétées qui les places correctement dans la page -->
+      
+        <nav>
+
+            <ul>
+                <li class="font-size kanit-regular">
+                    <a href="https://www.karminecorp.fr/" target="_blank">Site officiel</a>
+                </li>
+                <li class="font-size kanit-regular">
+                    <a href="https://www.karminecorp.fr/pages/shop-page" target="_blank">Boutique</a>
+                </li>
+                <li class="font-size kanit-regular">
+                    <a href="https://www.youtube.com/@Karmine_Corp" target="_blank">Chaine youtube</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+
+
+
+    </header>
+
+    <main class="main">
+
+        <div class="bouton">
+            <p>
+             <a href="#">Dark mode </a>
+           </p>
+        </div>
+
+        <section class="align-item-center d-flex flex-column">
+
+            <h1 class="margin-top margin-bottom kanit-regular">Vidéos Karmine Corp</h1>
+
+            <a href="videos.html" target="_blank">
+                <h3 class="d-flex align-item-center kanit-regular margin-bottom videolink">Accéder aux vidéos</h3>
+            </a>
+
+
+
+        </section>
+
+        <section>
+
+            <form action="" method="post" enctype="multipart/form-data">
+
+
+                <label for="firstname">Votre prénom :</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Renseignez votre prénom">
+
+                <label for="email"> Votre Email</label>
+                <input type="email" name="email" id="email" placeholder="Oh donne ton mail"></input>
+
+                <label for="password">Votre mdp</label>
+                <input type="password" name="password" id="password" placeholder="Ty mets le mdp le sang ?">
+
+                <label for="passcheck">Vérification mdp</label>
+                <input type="password" name="passcheck" id="passcheck" placeholder="Romets le mdp">
+
+                <br>
+                <br>
+                <label for="date">Votre date de naissance :</label>
+                <input type="date" name="date" id="date">
+
+                <br>
+                
+                
+                
+                <br>
+                <p>Sexe :</p>
+                <input type="radio" name="sexe" id="sexeM" value="m">Homme
+                <input type="radio" name="sexe" id="sexeF" value="f">Femme
+                <input type="radio" name="sexe" id="sexeNB" value="nb">Non binaire
+                <input type="radio" name="sexe" id="otherSexe" value="oth">Autres
+
+
+
+                <br>
+                <br>
+                <label for="Esport team">L'équipe que vous supportez :</label>
+                <br>
+                <select name="Esport team" id="Esport team">
+                    <option value="KC">Karmine Corp</option>
+                    <option value="BDS">BDS</option>
+                    <option value="P8">P8</option>
+                    <option value="PITA">Pitality</option>
+                    <option value="G2">G2</option>
+                    <option value="SEN">Sentinel</option>
+                    <option value="T1">T1</option>
+                    <option value="HLE">HLE</option>
+                    <option value="BLG">BLG</option>
+                </select>
+
+                <p>Quelles joueurs sont des joueurs lol ?</p>
+                <input type="checkbox" name="q1" value="Caliste"> Caliste
+                <input type="checkbox" name="q1" value="Saken"> Saken
+                <input type="checkbox" name="q1" value="Engh"> Engh
+                <input type="checkbox" name="q1" value="Vatira"> Vatira
+
+
+                <br>
+                <br>
+                <input type="submit" value="Envoyer">
+
+            </form>
+
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <footer class=" bg-color ">
+
+
+
+        <p class="font-white">© 2024 Mon Site Web. Tous droits réservés.</p>
+        <ul class="footer-links margin-top-minus">
+            <li>
+                <p class="font-blue gras font-size text-center">Réseaux</p>
+                <a class="font-white" href="https://x.com/KarmineCorp" target="_blank">Twitter</a>
+                <a class="font-white" href="https://www.instagram.com/karminecorp/" target="_blank">Instagram</a>
+                <a class="font-white" href="https://www.youtube.com/channel/UCW5Ma_xnAweFIXCGOAZECAA"
+                    target="_blank">Youtube</a>
+                <a class="font-white" href="https://www.tiktok.com/@karmine_corp" target="_blank">Tik-tok</a>
+
+            </li>
+
+            <span class="font-blue gras font-size  flex-column d-flex  text-center w-30">Sponsors</span>
+            <li class="padding d-flex align-item-center w-30 justify-between">
+
+
+                <img class="w-5" src="imageetvideos/58429064a6515b1e0ad75aba.png" alt="">
+                <img class="w-5" src="imageetvideos/pngwing.com (1).png" alt="">
+                <img class="w-5" src="imageetvideos/pngwing.com (2).png" alt="">
+                <img class="w-5" src="imageetvideos/pngwing.com.png" alt="">
+
+            </li>
+
+            <li class="right margin-right">
+                <img src="imageetvideos/Karmine_Corp_logo.svg.png" alt="Logo de la Karmine Corp">
+            </li>
+
+
+
+
+        </ul>
+    </footer>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
